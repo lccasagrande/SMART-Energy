@@ -1,0 +1,25 @@
+This is a lists of people who contributed to the SMART Energy project. 
+
+Authors
+-------
+
++ Lucas Casagrande  (Github profile: https://github.com/ElCasagrande)
+	Developer
+
++ Guilherme Engler  (Github profile: https://github.com/Engler)
+	Developer
+
++ Lucien Bartsch    (Github profile: https://github.com/lucbart)
+	Developer
+
++ André Nass	    (Github profile: https://github.com/AndreNass)
+	Developer
+
++ Elton Faust ()
+	Developer
+
++ Geovani Figueira ()
+	Developer
+
++ Rafael Cardoso ()
+	Developer					
