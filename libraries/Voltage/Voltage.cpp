@@ -9,8 +9,8 @@ Voltage::Voltage(int porta)
 int Voltage::getVoltage()
 {
 	float value = analogRead(_porta);
-
-	value = ((value * 5 / 1023) * 63.31361);
+	Serial.println((value * 5 / 1023));
+	value = ((value * 5 / 1023) * 45.249);
 
 	return (int)value;
 }
