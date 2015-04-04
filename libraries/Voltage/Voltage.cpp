@@ -9,8 +9,8 @@ Voltage::Voltage(int porta)
 int Voltage::getVoltage()
 {
 	float value = analogRead(_porta);
-	
-	value = ((value * 5 / 1023) * 45.249);
+
+	value = map(value, 0, 993, 0, 219);
 
 	return (int)value;
 }
