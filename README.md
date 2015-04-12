@@ -12,8 +12,14 @@ In Construction....
 
 Contact
 -------
-Our contacts are in the Authors document, localized in 
-https://github.com/Elcasagrande/SMART-Energy 
+
+Lucas Casagrande  	(Github profile: https://github.com/ElCasagrande)
+Guilherme Engler  	(Github profile: https://github.com/Engler)
+Lucien Bartsch    	(Github profile: https://github.com/lucbart)
+Andre Nass	    	(Github profile: https://github.com/AndreNass)
+Elton Faust       	(Github profile: https://github.com/EltonFaust)
+Geovani Figueira  	(Github profile: https://github.com/DJhova)
+Rafael Cardoso 		()
 
 Home Page
 ---------
