@@ -3,7 +3,7 @@
  * First of all you have to build or buy a Voltage Sensor and
  * choose one of the analogic pins to input.
  * Here we are using the analogic pin A0.
- */
+ **/
 
 #include <VoltageSensor.h>
 
