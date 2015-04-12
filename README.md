@@ -14,3 +14,7 @@ Contact
 -------
 Our contacts are in the Authors document, localized in 
 https://github.com/Elcasagrande/SMART-Energy 
+
+Home Page
+---------
+http://elcasagrande.github.io/SMART-Energy/
