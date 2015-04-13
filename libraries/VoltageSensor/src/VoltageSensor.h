@@ -1,6 +1,7 @@
 /**
+ * \class VoltageSensor
  * \brief This class allows a interface management to operate
- * the voltage sensor in a Arduino or any kind of micro controller.
+ * the voltage sensor in an Arduino or any kind of micro controller.
  *
  *
  * The read function will only return a voltage average value determinated by the divisor variable.
@@ -8,9 +9,7 @@
  * Because of that you will have to call the update function in the loop
  * of your sketch to increment the counter who will activate the
  * calculate of the average value.
- **/
- 
-/**
+ *
  * \author Lucas C. Casagrande 
  * \version 1.0
  * \since 2015-04-11

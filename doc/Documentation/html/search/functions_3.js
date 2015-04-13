@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['setdivisor',['setDivisor',['../classVoltageSensor.html#a017656ff52f98f707de1b64fb61efae9',1,'VoltageSensor']]]
+  ['motionsensor',['MotionSensor',['../classMotionSensor.html#a719d6cc25a00c3f40e8bc3d944b5b3a9',1,'MotionSensor']]]
 ];
