@@ -7,7 +7,7 @@ Este é um projeto para automatizar o controle do consumo de energia elétrica.
 
 Documentação da API
 ------------
-A documentação completa da API em html pode ser encontrada em /doc/Documentation. 
+A documentação completa da API em html pode ser encontrada em https://github.com/ElCasagrande/SMART-Energy/blob/master/doc/Documentation/html/ 
 
 Utilizando a API.
 ------------
@@ -85,4 +85,4 @@ Elton Faust       	(Github profile: https://github.com/EltonFaust)
 
 Geovani Figueira  	(Github profile: https://github.com/DJhova)
 
-Rafael Cardoso 		()
+Rafael Cardoso 		(Github profile: )
