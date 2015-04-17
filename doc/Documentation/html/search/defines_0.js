@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['millis_5fper_5fmin',['MILLIS_PER_MIN',['../MotionSensor_8h.html#aa918cc92a207919d9bf85e9c77676b89',1,'MotionSensor.h']]],
-  ['millistominutes',['millisToMinutes',['../MotionSensor_8h.html#ac99a5b7717e326692762ba073248eac2',1,'MotionSensor.h']]],
-  ['minutestomillis',['minutesToMillis',['../MotionSensor_8h.html#a5bbbb680c5a15774dd444b80c01f4788',1,'MotionSensor.h']]]
+  ['current_5fsensor_5finput',['CURRENT_SENSOR_INPUT',['../Config_2Config_8h.html#ac84b47fa7ab4583c83f5cb240cd80456',1,'CURRENT_SENSOR_INPUT():&#160;Config.h'],['../CurrentSensor_2src_2Config_8h.html#ac84b47fa7ab4583c83f5cb240cd80456',1,'CURRENT_SENSOR_INPUT():&#160;Config.h']]]
 ];

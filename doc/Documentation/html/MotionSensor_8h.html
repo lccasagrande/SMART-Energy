@@ -108,12 +108,16 @@ Classes</h2></td></tr>
 Macros</h2></td></tr>
 <tr class="memitem:aa918cc92a207919d9bf85e9c77676b89"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MotionSensor_8h.html#aa918cc92a207919d9bf85e9c77676b89">MILLIS_PER_MIN</a>&#160;&#160;&#160;(60000UL)</td></tr>
 <tr class="separator:aa918cc92a207919d9bf85e9c77676b89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a725ad2b105078393f483a0745dd347b9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MotionSensor_8h.html#a725ad2b105078393f483a0745dd347b9">MILLIS_PER_SECS</a>&#160;&#160;&#160;(1000UL)</td></tr>
+<tr class="separator:a725ad2b105078393f483a0745dd347b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e7d1008e5b26253223a67794b77a806"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MotionSensor_8h.html#a5e7d1008e5b26253223a67794b77a806">SECS_PER_MIN</a>&#160;&#160;&#160;(60UL)</td></tr>
 <tr class="separator:a5e7d1008e5b26253223a67794b77a806"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5bbbb680c5a15774dd444b80c01f4788"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MotionSensor_8h.html#a5bbbb680c5a15774dd444b80c01f4788">minutesToMillis</a>(_min_)&#160;&#160;&#160;(  _min_  * <a class="el" href="MotionSensor_8h.html#aa918cc92a207919d9bf85e9c77676b89">MILLIS_PER_MIN</a>)</td></tr>
-<tr class="separator:a5bbbb680c5a15774dd444b80c01f4788"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12d15ef8883a2dfd2aef3549f9a560cc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MotionSensor_8h.html#a12d15ef8883a2dfd2aef3549f9a560cc">secsToMillis</a>(_sec_)&#160;&#160;&#160;(  _sec_  * <a class="el" href="MotionSensor_8h.html#a725ad2b105078393f483a0745dd347b9">MILLIS_PER_SECS</a>)</td></tr>
+<tr class="separator:a12d15ef8883a2dfd2aef3549f9a560cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac99a5b7717e326692762ba073248eac2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MotionSensor_8h.html#ac99a5b7717e326692762ba073248eac2">millisToMinutes</a>(_millis_)&#160;&#160;&#160;((_millis_ / <a class="el" href="MotionSensor_8h.html#aa918cc92a207919d9bf85e9c77676b89">MILLIS_PER_MIN</a>) % <a class="el" href="MotionSensor_8h.html#a5e7d1008e5b26253223a67794b77a806">SECS_PER_MIN</a>)</td></tr>
 <tr class="separator:ac99a5b7717e326692762ba073248eac2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b74b587504f40a5ef5281814987139f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MotionSensor_8h.html#a2b74b587504f40a5ef5281814987139f">millisToSeconds</a>(_millis_)&#160;&#160;&#160;(_millis_ / <a class="el" href="MotionSensor_8h.html#a725ad2b105078393f483a0745dd347b9">MILLIS_PER_SECS</a>)</td></tr>
+<tr class="separator:a2b74b587504f40a5ef5281814987139f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a class="anchor" id="aa918cc92a207919d9bf85e9c77676b89"></a>
@@ -128,6 +132,21 @@ Macros</h2></td></tr>
 <p>Milliseconds per minute. </p>
 
 <p>Definition at line <a class="el" href="MotionSensor_8h_source.html#l00015">15</a> of file <a class="el" href="MotionSensor_8h_source.html">MotionSensor.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a725ad2b105078393f483a0745dd347b9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MILLIS_PER_SECS&#160;&#160;&#160;(1000UL)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Milliseconds per seconds. </p>
+
+<p>Definition at line <a class="el" href="MotionSensor_8h_source.html#l00017">17</a> of file <a class="el" href="MotionSensor_8h_source.html">MotionSensor.h</a>.</p>
 
 </div>
 </div>
@@ -146,30 +165,28 @@ Macros</h2></td></tr>
 </div><div class="memdoc">
 <p>Converts milliseconds to minutes. </p>
 
-<p>Definition at line <a class="el" href="MotionSensor_8h_source.html#l00021">21</a> of file <a class="el" href="MotionSensor_8h_source.html">MotionSensor.h</a>.</p>
-
-<p>Referenced by <a class="el" href="MotionSensor_8cpp_source.html#l00067">MotionSensor::getInterval()</a>.</p>
+<p>Definition at line <a class="el" href="MotionSensor_8h_source.html#l00023">23</a> of file <a class="el" href="MotionSensor_8h_source.html">MotionSensor.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a5bbbb680c5a15774dd444b80c01f4788"></a>
+<a class="anchor" id="a2b74b587504f40a5ef5281814987139f"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define minutesToMillis</td>
+          <td class="memname">#define millisToSeconds</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">_min_</td><td>)</td>
-          <td>&#160;&#160;&#160;(  _min_  * <a class="el" href="MotionSensor_8h.html#aa918cc92a207919d9bf85e9c77676b89">MILLIS_PER_MIN</a>)</td>
+          <td class="paramname">_millis_</td><td>)</td>
+          <td>&#160;&#160;&#160;(_millis_ / <a class="el" href="MotionSensor_8h.html#a725ad2b105078393f483a0745dd347b9">MILLIS_PER_SECS</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Converts minutes to milliseconds. </p>
+<p>Converts milliseconds to seconds. </p>
 
-<p>Definition at line <a class="el" href="MotionSensor_8h_source.html#l00019">19</a> of file <a class="el" href="MotionSensor_8h_source.html">MotionSensor.h</a>.</p>
+<p>Definition at line <a class="el" href="MotionSensor_8h_source.html#l00025">25</a> of file <a class="el" href="MotionSensor_8h_source.html">MotionSensor.h</a>.</p>
 
-<p>Referenced by <a class="el" href="MotionSensor_8cpp_source.html#l00032">MotionSensor::start()</a>.</p>
+<p>Referenced by <a class="el" href="MotionSensor_8cpp_source.html#l00069">MotionSensor::getInterval()</a>.</p>
 
 </div>
 </div>
@@ -184,14 +201,35 @@ Macros</h2></td></tr>
 </div><div class="memdoc">
 <p>Seconds per minute. </p>
 
-<p>Definition at line <a class="el" href="MotionSensor_8h_source.html#l00017">17</a> of file <a class="el" href="MotionSensor_8h_source.html">MotionSensor.h</a>.</p>
+<p>Definition at line <a class="el" href="MotionSensor_8h_source.html#l00019">19</a> of file <a class="el" href="MotionSensor_8h_source.html">MotionSensor.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a12d15ef8883a2dfd2aef3549f9a560cc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define secsToMillis</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">_sec_</td><td>)</td>
+          <td>&#160;&#160;&#160;(  _sec_  * <a class="el" href="MotionSensor_8h.html#a725ad2b105078393f483a0745dd347b9">MILLIS_PER_SECS</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Converts minutes to milliseconds. </p>
+
+<p>Definition at line <a class="el" href="MotionSensor_8h_source.html#l00021">21</a> of file <a class="el" href="MotionSensor_8h_source.html">MotionSensor.h</a>.</p>
+
+<p>Referenced by <a class="el" href="MotionSensor_8cpp_source.html#l00033">MotionSensor::start()</a>.</p>
 
 </div>
 </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Apr 13 2015 01:17:52 for SMART Energy by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Apr 17 2015 13:09:28 for SMART Energy by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.9.1
 </small></address>

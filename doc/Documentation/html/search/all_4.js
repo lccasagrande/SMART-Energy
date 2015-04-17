@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['getinterval',['getInterval',['../classMotionSensor.html#a389c08e9ddbfb3ccb37b25e5c0b1a952',1,'MotionSensor']]]
+  ['description_2emd',['DESCRIPTION.md',['../DESCRIPTION_8md.html',1,'']]],
+  ['determinequiescentvoltage',['determineQuiescentVoltage',['../classCurrentSensor.html#ab8377b7485f3daf253a965ec71f0d5f1',1,'CurrentSensor']]]
 ];

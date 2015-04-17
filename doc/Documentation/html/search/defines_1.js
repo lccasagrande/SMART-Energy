@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['secs_5fper_5fmin',['SECS_PER_MIN',['../MotionSensor_8h.html#a5e7d1008e5b26253223a67794b77a806',1,'MotionSensor.h']]]
+  ['ip_5faddress',['IP_ADDRESS',['../Config_2Config_8h.html#ad8a262037cbfb38d1512f0073eeb7a66',1,'IP_ADDRESS():&#160;Config.h'],['../CurrentSensor_2src_2Config_8h.html#ad8a262037cbfb38d1512f0073eeb7a66',1,'IP_ADDRESS():&#160;Config.h']]]
 ];

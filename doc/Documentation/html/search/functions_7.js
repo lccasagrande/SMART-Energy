@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['voltagesensor',['VoltageSensor',['../classVoltageSensor.html#a939f8db6fc47af8b43f41d5a140ff6d9',1,'VoltageSensor']]]
+  ['motionsensor',['MotionSensor',['../classMotionSensor.html#a719d6cc25a00c3f40e8bc3d944b5b3a9',1,'MotionSensor']]]
 ];

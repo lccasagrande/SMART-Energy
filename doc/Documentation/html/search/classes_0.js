@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['motionsensor',['MotionSensor',['../classMotionSensor.html',1,'']]]
+  ['currentsensor',['CurrentSensor',['../classCurrentSensor.html',1,'']]]
 ];

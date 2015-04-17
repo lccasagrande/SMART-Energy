@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['voltagesensor',['VoltageSensor',['../classVoltageSensor.html',1,'']]]
+  ['ethernetrequest',['EthernetRequest',['../classEthernetRequest.html',1,'']]]
 ];

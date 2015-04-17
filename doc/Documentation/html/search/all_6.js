@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['read',['read',['../classMotionSensor.html#a89766e508a2c9238f2600e55ebe0fa38',1,'MotionSensor::read()'],['../classVoltageSensor.html#ade7c7e7b64ea8c8341d6c7059d740621',1,'VoltageSensor::read()']]],
-  ['reset',['reset',['../classVoltageSensor.html#afa07805e0e1358da3f3c7f7fcec439a5',1,'VoltageSensor']]]
+  ['getinterval',['getInterval',['../classMotionSensor.html#a389c08e9ddbfb3ccb37b25e5c0b1a952',1,'MotionSensor']]],
+  ['getmethod',['getMethod',['../classEthernetRequest.html#a7dadc4b3747f32cd7d6e6759fb5fba66',1,'EthernetRequest']]],
+  ['getparam',['getParam',['../classEthernetRequest.html#abe13dd9619e059c9ad1b793a7aa5a329',1,'EthernetRequest']]],
+  ['getrelay',['getRelay',['../classMotionSensor.html#a1fbba1cfdf52944415e188d0a5e5e6ae',1,'MotionSensor::getRelay()'],['../classRelayShield.html#a39dd17a31827a9f65aacd6ab72a6ace9',1,'RelayShield::getRelay()']]]
 ];

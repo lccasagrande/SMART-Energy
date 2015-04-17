@@ -106,9 +106,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a46065c351c465996db0e7f5682383859"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMotionSensor.html#a46065c351c465996db0e7f5682383859">begin</a> (int)</td></tr>
 <tr class="memdesc:a46065c351c465996db0e7f5682383859"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the object with the port specified <em></em>.  <a href="#a46065c351c465996db0e7f5682383859">More...</a><br /></td></tr>
 <tr class="separator:a46065c351c465996db0e7f5682383859"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a61e15923108939ce94be68653f0cc4aa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMotionSensor.html#a61e15923108939ce94be68653f0cc4aa">start</a> (int)</td></tr>
-<tr class="memdesc:a61e15923108939ce94be68653f0cc4aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts checking for motions<em></em>.  <a href="#a61e15923108939ce94be68653f0cc4aa">More...</a><br /></td></tr>
-<tr class="separator:a61e15923108939ce94be68653f0cc4aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:addd89469e1cb0cfd6bf7b6fc54ee8393"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMotionSensor.html#addd89469e1cb0cfd6bf7b6fc54ee8393">start</a> (int, int)</td></tr>
+<tr class="memdesc:addd89469e1cb0cfd6bf7b6fc54ee8393"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts checking for motions<em></em>.  <a href="#addd89469e1cb0cfd6bf7b6fc54ee8393">More...</a><br /></td></tr>
+<tr class="separator:addd89469e1cb0cfd6bf7b6fc54ee8393"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5dfd98f0f68eb38667bce2b436dca318"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMotionSensor.html#a5dfd98f0f68eb38667bce2b436dca318">stop</a> ()</td></tr>
 <tr class="memdesc:a5dfd98f0f68eb38667bce2b436dca318"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stop scanning for motions resetting the time interval to default(0) and setting the motion detected variable to default(1)<em></em>.  <a href="#a5dfd98f0f68eb38667bce2b436dca318">More...</a><br /></td></tr>
 <tr class="separator:a5dfd98f0f68eb38667bce2b436dca318"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -121,11 +121,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a389c08e9ddbfb3ccb37b25e5c0b1a952"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMotionSensor.html#a389c08e9ddbfb3ccb37b25e5c0b1a952">getInterval</a> ()</td></tr>
 <tr class="memdesc:a389c08e9ddbfb3ccb37b25e5c0b1a952"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the interval time defined by user or not, converting it from milliseconds to minutes.  <a href="#a389c08e9ddbfb3ccb37b25e5c0b1a952">More...</a><br /></td></tr>
 <tr class="separator:a389c08e9ddbfb3ccb37b25e5c0b1a952"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fbba1cfdf52944415e188d0a5e5e6ae"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMotionSensor.html#a1fbba1cfdf52944415e188d0a5e5e6ae">getRelay</a> ()</td></tr>
+<tr class="memdesc:a1fbba1cfdf52944415e188d0a5e5e6ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the relay defined by user.  <a href="#a1fbba1cfdf52944415e188d0a5e5e6ae">More...</a><br /></td></tr>
+<tr class="separator:a1fbba1cfdf52944415e188d0a5e5e6ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a0fa187fa46d72f1c1185629894947c22"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMotionSensor.html#a0fa187fa46d72f1c1185629894947c22">_port</a></td></tr>
 <tr class="separator:a0fa187fa46d72f1c1185629894947c22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7404b55260d0339f33aa8f84fc106c7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMotionSensor.html#ae7404b55260d0339f33aa8f84fc106c7">_relay</a></td></tr>
+<tr class="separator:ae7404b55260d0339f33aa8f84fc106c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d9a007a56e225677a569822df0aac75"><td class="memItemLeft" align="right" valign="top">unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMotionSensor.html#a6d9a007a56e225677a569822df0aac75">_interval</a></td></tr>
 <tr class="separator:a6d9a007a56e225677a569822df0aac75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6cb9266861627f4dcf7fe2643c4dd0cb"><td class="memItemLeft" align="right" valign="top">unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMotionSensor.html#a6cb9266861627f4dcf7fe2643c4dd0cb">_previousMillis</a></td></tr>
@@ -139,7 +144,7 @@ Private Attributes</h2></td></tr>
 <dl class="section version"><dt>Version</dt><dd>1.0 </dd></dl>
 <dl class="section since"><dt>Since</dt><dd>2015-04-12 </dd></dl>
 
-<p>Definition at line <a class="el" href="MotionSensor_8h_source.html#l00025">25</a> of file <a class="el" href="MotionSensor_8h_source.html">MotionSensor.h</a>.</p>
+<p>Definition at line <a class="el" href="MotionSensor_8h_source.html#l00029">29</a> of file <a class="el" href="MotionSensor_8h_source.html">MotionSensor.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a719d6cc25a00c3f40e8bc3d944b5b3a9"></a>
 <div class="memitem">
@@ -183,7 +188,7 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="MotionSensor_8cpp_source.html#l00027">27</a> of file <a class="el" href="MotionSensor_8cpp_source.html">MotionSensor.cpp</a>.</p>
+<p>Definition at line <a class="el" href="MotionSensor_8cpp_source.html#l00028">28</a> of file <a class="el" href="MotionSensor_8cpp_source.html">MotionSensor.cpp</a>.</p>
 
 </div>
 </div>
@@ -203,7 +208,27 @@ Private Attributes</h2></td></tr>
 <p>Get the interval time defined by user or not, converting it from milliseconds to minutes. </p>
 <dl class="section return"><dt>Returns</dt><dd>The defined interval converted to minutes. </dd></dl>
 
-<p>Definition at line <a class="el" href="MotionSensor_8cpp_source.html#l00067">67</a> of file <a class="el" href="MotionSensor_8cpp_source.html">MotionSensor.cpp</a>.</p>
+<p>Definition at line <a class="el" href="MotionSensor_8cpp_source.html#l00069">69</a> of file <a class="el" href="MotionSensor_8cpp_source.html">MotionSensor.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1fbba1cfdf52944415e188d0a5e5e6ae"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MotionSensor::getRelay </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the relay defined by user. </p>
+<dl class="section return"><dt>Returns</dt><dd>The <a class="el" href="classRelay.html" title="This class allows a interface management to operate Relay´s in an Arduino or any kind of micro contro...">Relay</a> number. </dd></dl>
+
+<p>Definition at line <a class="el" href="MotionSensor_8cpp_source.html#l00075">75</a> of file <a class="el" href="MotionSensor_8cpp_source.html">MotionSensor.cpp</a>.</p>
 
 </div>
 </div>
@@ -223,11 +248,11 @@ Private Attributes</h2></td></tr>
 <p>Get if was detected motion in the interval time or not. <em></em>. </p>
 <dl class="section return"><dt>Returns</dt><dd>Return if was detected motion or if the time interval has passed with no motion detected. </dd></dl>
 
-<p>Definition at line <a class="el" href="MotionSensor_8cpp_source.html#l00045">45</a> of file <a class="el" href="MotionSensor_8cpp_source.html">MotionSensor.cpp</a>.</p>
+<p>Definition at line <a class="el" href="MotionSensor_8cpp_source.html#l00047">47</a> of file <a class="el" href="MotionSensor_8cpp_source.html">MotionSensor.cpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a61e15923108939ce94be68653f0cc4aa"></a>
+<a class="anchor" id="addd89469e1cb0cfd6bf7b6fc54ee8393"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -235,8 +260,18 @@ Private Attributes</h2></td></tr>
           <td class="memname">void MotionSensor::start </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>interval</em></td><td>)</td>
+          <td class="paramname"><em>interval</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>relay</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -245,11 +280,12 @@ Private Attributes</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">interval</td><td>- The interval time to check if was not detected any movement. </td></tr>
+    <tr><td class="paramname">relay</td><td>- The relay number used to control. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="MotionSensor_8cpp_source.html#l00032">32</a> of file <a class="el" href="MotionSensor_8cpp_source.html">MotionSensor.cpp</a>.</p>
+<p>Definition at line <a class="el" href="MotionSensor_8cpp_source.html#l00033">33</a> of file <a class="el" href="MotionSensor_8cpp_source.html">MotionSensor.cpp</a>.</p>
 
 </div>
 </div>
@@ -268,7 +304,7 @@ Private Attributes</h2></td></tr>
 
 <p>Stop scanning for motions resetting the time interval to default(0) and setting the motion detected variable to default(1)<em></em>. </p>
 
-<p>Definition at line <a class="el" href="MotionSensor_8cpp_source.html#l00039">39</a> of file <a class="el" href="MotionSensor_8cpp_source.html">MotionSensor.cpp</a>.</p>
+<p>Definition at line <a class="el" href="MotionSensor_8cpp_source.html#l00041">41</a> of file <a class="el" href="MotionSensor_8cpp_source.html">MotionSensor.cpp</a>.</p>
 
 </div>
 </div>
@@ -287,7 +323,7 @@ Private Attributes</h2></td></tr>
 
 <p>If the time interval were defined different from the default value 0, this function will update the value of the sensor and will check if the defined interval time passed without detections of motions. </p>
 
-<p>Definition at line <a class="el" href="MotionSensor_8cpp_source.html#l00050">50</a> of file <a class="el" href="MotionSensor_8cpp_source.html">MotionSensor.cpp</a>.</p>
+<p>Definition at line <a class="el" href="MotionSensor_8cpp_source.html#l00052">52</a> of file <a class="el" href="MotionSensor_8cpp_source.html">MotionSensor.cpp</a>.</p>
 
 </div>
 </div>
@@ -311,9 +347,9 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>If motion has detected something or no interval time was defined this holds true. If the interval time passed whitout any motion this holds false. </p>
 
-<p>Definition at line <a class="el" href="MotionSensor_8h_source.html#l00066">66</a> of file <a class="el" href="MotionSensor_8h_source.html">MotionSensor.h</a>.</p>
+<p>Definition at line <a class="el" href="MotionSensor_8h_source.html#l00077">77</a> of file <a class="el" href="MotionSensor_8h_source.html">MotionSensor.h</a>.</p>
 
-<p>Referenced by <a class="el" href="MotionSensor_8cpp_source.html#l00016">MotionSensor()</a>, <a class="el" href="MotionSensor_8cpp_source.html#l00045">read()</a>, <a class="el" href="MotionSensor_8cpp_source.html#l00039">stop()</a>, and <a class="el" href="MotionSensor_8cpp_source.html#l00050">update()</a>.</p>
+<p>Referenced by <a class="el" href="MotionSensor_8cpp_source.html#l00016">MotionSensor()</a>, <a class="el" href="MotionSensor_8cpp_source.html#l00047">read()</a>, <a class="el" href="MotionSensor_8cpp_source.html#l00041">stop()</a>, and <a class="el" href="MotionSensor_8cpp_source.html#l00052">update()</a>.</p>
 
 </div>
 </div>
@@ -336,9 +372,9 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Holds the interval time used to verify the spent time without motion detected </p>
 
-<p>Definition at line <a class="el" href="MotionSensor_8h_source.html#l00064">64</a> of file <a class="el" href="MotionSensor_8h_source.html">MotionSensor.h</a>.</p>
+<p>Definition at line <a class="el" href="MotionSensor_8h_source.html#l00075">75</a> of file <a class="el" href="MotionSensor_8h_source.html">MotionSensor.h</a>.</p>
 
-<p>Referenced by <a class="el" href="MotionSensor_8cpp_source.html#l00067">getInterval()</a>, <a class="el" href="MotionSensor_8cpp_source.html#l00016">MotionSensor()</a>, <a class="el" href="MotionSensor_8cpp_source.html#l00032">start()</a>, <a class="el" href="MotionSensor_8cpp_source.html#l00039">stop()</a>, and <a class="el" href="MotionSensor_8cpp_source.html#l00050">update()</a>.</p>
+<p>Referenced by <a class="el" href="MotionSensor_8cpp_source.html#l00069">getInterval()</a>, <a class="el" href="MotionSensor_8cpp_source.html#l00016">MotionSensor()</a>, <a class="el" href="MotionSensor_8cpp_source.html#l00033">start()</a>, <a class="el" href="MotionSensor_8cpp_source.html#l00041">stop()</a>, and <a class="el" href="MotionSensor_8cpp_source.html#l00052">update()</a>.</p>
 
 </div>
 </div>
@@ -361,9 +397,9 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Holds the port used for the motion sensor </p>
 
-<p>Definition at line <a class="el" href="MotionSensor_8h_source.html#l00063">63</a> of file <a class="el" href="MotionSensor_8h_source.html">MotionSensor.h</a>.</p>
+<p>Definition at line <a class="el" href="MotionSensor_8h_source.html#l00073">73</a> of file <a class="el" href="MotionSensor_8h_source.html">MotionSensor.h</a>.</p>
 
-<p>Referenced by <a class="el" href="MotionSensor_8cpp_source.html#l00027">begin()</a>, and <a class="el" href="MotionSensor_8cpp_source.html#l00050">update()</a>.</p>
+<p>Referenced by <a class="el" href="MotionSensor_8cpp_source.html#l00028">begin()</a>, and <a class="el" href="MotionSensor_8cpp_source.html#l00052">update()</a>.</p>
 
 </div>
 </div>
@@ -386,16 +422,41 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Holds the time when the verifying started </p>
 
-<p>Definition at line <a class="el" href="MotionSensor_8h_source.html#l00065">65</a> of file <a class="el" href="MotionSensor_8h_source.html">MotionSensor.h</a>.</p>
+<p>Definition at line <a class="el" href="MotionSensor_8h_source.html#l00076">76</a> of file <a class="el" href="MotionSensor_8h_source.html">MotionSensor.h</a>.</p>
 
-<p>Referenced by <a class="el" href="MotionSensor_8cpp_source.html#l00016">MotionSensor()</a>, <a class="el" href="MotionSensor_8cpp_source.html#l00032">start()</a>, and <a class="el" href="MotionSensor_8cpp_source.html#l00050">update()</a>.</p>
+<p>Referenced by <a class="el" href="MotionSensor_8cpp_source.html#l00016">MotionSensor()</a>, <a class="el" href="MotionSensor_8cpp_source.html#l00033">start()</a>, and <a class="el" href="MotionSensor_8cpp_source.html#l00052">update()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae7404b55260d0339f33aa8f84fc106c7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MotionSensor::_relay</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Holds the relay used to control </p>
+
+<p>Definition at line <a class="el" href="MotionSensor_8h_source.html#l00074">74</a> of file <a class="el" href="MotionSensor_8h_source.html">MotionSensor.h</a>.</p>
+
+<p>Referenced by <a class="el" href="MotionSensor_8cpp_source.html#l00075">getRelay()</a>, <a class="el" href="MotionSensor_8cpp_source.html#l00016">MotionSensor()</a>, and <a class="el" href="MotionSensor_8cpp_source.html#l00033">start()</a>.</p>
 
 </div>
 </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Apr 13 2015 01:17:52 for SMART Energy by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Apr 17 2015 13:09:28 for SMART Energy by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.9.1
 </small></address>
