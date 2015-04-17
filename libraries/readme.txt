@@ -1,1 +1,0 @@
-Para informações sobre como instalar Bibliotecas, veja: http://arduino.cc/en/Guide/Libraries\n
