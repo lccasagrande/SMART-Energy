@@ -93,7 +93,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="contents">
 <a href="RelayShield_8cpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> * RelayShield.cpp - Relay Shield library</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> * Copyright (C) 2015-2016 Guilherme Engler Stadelhofer  All rights reserved.</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> * Guilherme Engler Stadelhofer</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">//******************************************************************************</span></div>
@@ -102,7 +102,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;SPI.h&gt;</span></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &quot;Config.h&quot;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="Config_8h.html">Config.h</a>&quot;</span></div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="RelayShield_8h.html">RelayShield.h</a>&quot;</span></div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment">//******************************************************************************</span></div>
@@ -110,7 +110,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment">//******************************************************************************</span></div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
 <div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="classRelayShield.html#a78ac61f91cb8c9d70a3386364a90936d">   19</a></span>&#160;<a class="code" href="classRelayShield.html#a78ac61f91cb8c9d70a3386364a90936d">RelayShield::RelayShield</a>() {</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; <a class="code" href="Config_2Config_8h.html#a21e0f8265251562a717d5c352a31c15b">MAX_RELAY_QUANTITY</a>; i++) {</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; <a class="code" href="Config_8h.html#a21e0f8265251562a717d5c352a31c15b">MAX_RELAY_QUANTITY</a>; i++) {</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        this-&gt;<a class="code" href="classRelayShield.html#addc067fff64c80ade1dee0231e248fc7">relays</a>[i] = <span class="keyword">new</span> <a class="code" href="classRelay.html">Relay</a>();</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    }</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;}</div>
@@ -121,7 +121,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
 <div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="classRelayShield.html#a146b2040819e05c78a1199e1d635c13a">   29</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="classRelayShield.html#a146b2040819e05c78a1199e1d635c13a">RelayShield::begin</a>(<span class="keywordtype">int</span> pin[])</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;{</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 1; i &lt;= <a class="code" href="Config_2Config_8h.html#a21e0f8265251562a717d5c352a31c15b">MAX_RELAY_QUANTITY</a>; i++) {</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 1; i &lt;= <a class="code" href="Config_8h.html#a21e0f8265251562a717d5c352a31c15b">MAX_RELAY_QUANTITY</a>; i++) {</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        this-&gt;<a class="code" href="classRelayShield.html#a39dd17a31827a9f65aacd6ab72a6ace9">getRelay</a>(i)-&gt;<a class="code" href="classRelay.html#a7ab17c38dbccc2babed91fc2c798d1a1">begin</a>(pin[i - 1]);</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    }</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;}</div>
@@ -133,12 +133,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
 <div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="classRelayShield.html#a9df6d05f16d3ab0766c81e448824126a">   41</a></span>&#160;<span class="keywordtype">bool</span> <a class="code" href="classRelayShield.html#a9df6d05f16d3ab0766c81e448824126a">RelayShield::acceptableRelayIndex</a>(<span class="keywordtype">int</span> index)</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;{</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keywordflow">return</span> index &gt; 0 &amp;&amp; index &lt;= <a class="code" href="Config_2Config_8h.html#a21e0f8265251562a717d5c352a31c15b">MAX_RELAY_QUANTITY</a>;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keywordflow">return</span> index &gt; 0 &amp;&amp; index &lt;= <a class="code" href="Config_8h.html#a21e0f8265251562a717d5c352a31c15b">MAX_RELAY_QUANTITY</a>;</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;}</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
 <div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="classRelayShield.html#a823d9882b858fc0107a6a46d025446bf">   46</a></span>&#160;<span class="keywordtype">bool</span> <a class="code" href="classRelayShield.html#a823d9882b858fc0107a6a46d025446bf">RelayShield::anyRelayActivated</a>()</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;{</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 1; i &lt;= <a class="code" href="Config_2Config_8h.html#a21e0f8265251562a717d5c352a31c15b">MAX_RELAY_QUANTITY</a>; i++) {</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 1; i &lt;= <a class="code" href="Config_8h.html#a21e0f8265251562a717d5c352a31c15b">MAX_RELAY_QUANTITY</a>; i++) {</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <span class="keywordflow">if</span> (this-&gt;<a class="code" href="classRelayShield.html#a39dd17a31827a9f65aacd6ab72a6ace9">getRelay</a>(i)-&gt;activated()) {</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        }</div>
@@ -147,19 +147,20 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;}</div>
 <div class="ttc" id="classRelayShield_html_addc067fff64c80ade1dee0231e248fc7"><div class="ttname"><a href="classRelayShield.html#addc067fff64c80ade1dee0231e248fc7">RelayShield::relays</a></div><div class="ttdeci">Relay * relays[MAX_RELAY_QUANTITY]</div><div class="ttdef"><b>Definition:</b> <a href="RelayShield_8h_source.html#l00023">RelayShield.h:23</a></div></div>
-<div class="ttc" id="classRelayShield_html_a39dd17a31827a9f65aacd6ab72a6ace9"><div class="ttname"><a href="classRelayShield.html#a39dd17a31827a9f65aacd6ab72a6ace9">RelayShield::getRelay</a></div><div class="ttdeci">Relay * getRelay(int index)</div><div class="ttdoc">Get the relay with the passed parameter . </div><div class="ttdef"><b>Definition:</b> <a href="RelayShield_8cpp_source.html#l00036">RelayShield.cpp:36</a></div></div>
+<div class="ttc" id="classRelayShield_html_a39dd17a31827a9f65aacd6ab72a6ace9"><div class="ttname"><a href="classRelayShield.html#a39dd17a31827a9f65aacd6ab72a6ace9">RelayShield::getRelay</a></div><div class="ttdeci">Relay * getRelay(int index)</div><div class="ttdef"><b>Definition:</b> <a href="RelayShield_8cpp_source.html#l00036">RelayShield.cpp:36</a></div></div>
+<div class="ttc" id="Config_8h_html"><div class="ttname"><a href="Config_8h.html">Config.h</a></div></div>
 <div class="ttc" id="classRelay_html_a7ab17c38dbccc2babed91fc2c798d1a1"><div class="ttname"><a href="classRelay.html#a7ab17c38dbccc2babed91fc2c798d1a1">Relay::begin</a></div><div class="ttdeci">void begin(int pin)</div><div class="ttdoc">Initializes the object with the port specified . </div><div class="ttdef"><b>Definition:</b> <a href="Relay_8cpp_source.html#l00025">Relay.cpp:25</a></div></div>
-<div class="ttc" id="classRelayShield_html_a146b2040819e05c78a1199e1d635c13a"><div class="ttname"><a href="classRelayShield.html#a146b2040819e05c78a1199e1d635c13a">RelayShield::begin</a></div><div class="ttdeci">void begin(int pin[])</div><div class="ttdoc">Initializes the objects with the port specified to each relay . </div><div class="ttdef"><b>Definition:</b> <a href="RelayShield_8cpp_source.html#l00029">RelayShield.cpp:29</a></div></div>
+<div class="ttc" id="classRelayShield_html_a146b2040819e05c78a1199e1d635c13a"><div class="ttname"><a href="classRelayShield.html#a146b2040819e05c78a1199e1d635c13a">RelayShield::begin</a></div><div class="ttdeci">void begin(int pin[])</div><div class="ttdoc">Initializes the objects with the port specified. </div><div class="ttdef"><b>Definition:</b> <a href="RelayShield_8cpp_source.html#l00029">RelayShield.cpp:29</a></div></div>
 <div class="ttc" id="RelayShield_8h_html"><div class="ttname"><a href="RelayShield_8h.html">RelayShield.h</a></div></div>
+<div class="ttc" id="Config_8h_html_a21e0f8265251562a717d5c352a31c15b"><div class="ttname"><a href="Config_8h.html#a21e0f8265251562a717d5c352a31c15b">MAX_RELAY_QUANTITY</a></div><div class="ttdeci">#define MAX_RELAY_QUANTITY</div><div class="ttdef"><b>Definition:</b> <a href="Config_8h_source.html#l00022">Config.h:22</a></div></div>
 <div class="ttc" id="classRelay_html"><div class="ttname"><a href="classRelay.html">Relay</a></div><div class="ttdoc">This class allows a interface management to operate Relay´s in an Arduino or any kind of micro contro...</div><div class="ttdef"><b>Definition:</b> <a href="Relay_8h_source.html#l00015">Relay.h:15</a></div></div>
-<div class="ttc" id="classRelayShield_html_a9df6d05f16d3ab0766c81e448824126a"><div class="ttname"><a href="classRelayShield.html#a9df6d05f16d3ab0766c81e448824126a">RelayShield::acceptableRelayIndex</a></div><div class="ttdeci">bool acceptableRelayIndex(int index)</div><div class="ttdoc">Verify if the max quantity of Relays was reached . </div><div class="ttdef"><b>Definition:</b> <a href="RelayShield_8cpp_source.html#l00041">RelayShield.cpp:41</a></div></div>
-<div class="ttc" id="Config_2Config_8h_html_a21e0f8265251562a717d5c352a31c15b"><div class="ttname"><a href="Config_2Config_8h.html#a21e0f8265251562a717d5c352a31c15b">MAX_RELAY_QUANTITY</a></div><div class="ttdeci">#define MAX_RELAY_QUANTITY</div><div class="ttdef"><b>Definition:</b> <a href="Config_2Config_8h_source.html#l00022">Config.h:22</a></div></div>
+<div class="ttc" id="classRelayShield_html_a9df6d05f16d3ab0766c81e448824126a"><div class="ttname"><a href="classRelayShield.html#a9df6d05f16d3ab0766c81e448824126a">RelayShield::acceptableRelayIndex</a></div><div class="ttdeci">bool acceptableRelayIndex(int index)</div><div class="ttdef"><b>Definition:</b> <a href="RelayShield_8cpp_source.html#l00041">RelayShield.cpp:41</a></div></div>
 <div class="ttc" id="classRelayShield_html_a78ac61f91cb8c9d70a3386364a90936d"><div class="ttname"><a href="classRelayShield.html#a78ac61f91cb8c9d70a3386364a90936d">RelayShield::RelayShield</a></div><div class="ttdeci">RelayShield()</div><div class="ttdoc">Initializes the variables . </div><div class="ttdef"><b>Definition:</b> <a href="RelayShield_8cpp_source.html#l00019">RelayShield.cpp:19</a></div></div>
-<div class="ttc" id="classRelayShield_html_a823d9882b858fc0107a6a46d025446bf"><div class="ttname"><a href="classRelayShield.html#a823d9882b858fc0107a6a46d025446bf">RelayShield::anyRelayActivated</a></div><div class="ttdeci">bool anyRelayActivated()</div><div class="ttdoc">Verify if the there are Relay activated . </div><div class="ttdef"><b>Definition:</b> <a href="RelayShield_8cpp_source.html#l00046">RelayShield.cpp:46</a></div></div>
+<div class="ttc" id="classRelayShield_html_a823d9882b858fc0107a6a46d025446bf"><div class="ttname"><a href="classRelayShield.html#a823d9882b858fc0107a6a46d025446bf">RelayShield::anyRelayActivated</a></div><div class="ttdeci">bool anyRelayActivated()</div><div class="ttdef"><b>Definition:</b> <a href="RelayShield_8cpp_source.html#l00046">RelayShield.cpp:46</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Apr 17 2015 13:09:27 for SMART Energy by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Apr 27 2015 17:36:02 for SMART Energy by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.9.1
 </small></address>

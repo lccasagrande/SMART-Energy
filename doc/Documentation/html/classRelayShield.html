@@ -104,21 +104,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a78ac61f91cb8c9d70a3386364a90936d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the variables <em></em>.  <a href="#a78ac61f91cb8c9d70a3386364a90936d">More...</a><br /></td></tr>
 <tr class="separator:a78ac61f91cb8c9d70a3386364a90936d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a146b2040819e05c78a1199e1d635c13a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRelayShield.html#a146b2040819e05c78a1199e1d635c13a">begin</a> (int pin[])</td></tr>
-<tr class="memdesc:a146b2040819e05c78a1199e1d635c13a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the objects with the port specified to each relay <em></em>.  <a href="#a146b2040819e05c78a1199e1d635c13a">More...</a><br /></td></tr>
+<tr class="memdesc:a146b2040819e05c78a1199e1d635c13a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the objects with the port specified<em></em>.  <a href="#a146b2040819e05c78a1199e1d635c13a">More...</a><br /></td></tr>
 <tr class="separator:a146b2040819e05c78a1199e1d635c13a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a39dd17a31827a9f65aacd6ab72a6ace9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRelay.html">Relay</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRelayShield.html#a39dd17a31827a9f65aacd6ab72a6ace9">getRelay</a> (int index)</td></tr>
-<tr class="memdesc:a39dd17a31827a9f65aacd6ab72a6ace9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the relay with the passed parameter <em></em>.  <a href="#a39dd17a31827a9f65aacd6ab72a6ace9">More...</a><br /></td></tr>
 <tr class="separator:a39dd17a31827a9f65aacd6ab72a6ace9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9df6d05f16d3ab0766c81e448824126a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRelayShield.html#a9df6d05f16d3ab0766c81e448824126a">acceptableRelayIndex</a> (int index)</td></tr>
-<tr class="memdesc:a9df6d05f16d3ab0766c81e448824126a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verify if the max quantity of Relays was reached <em></em>.  <a href="#a9df6d05f16d3ab0766c81e448824126a">More...</a><br /></td></tr>
 <tr class="separator:a9df6d05f16d3ab0766c81e448824126a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a823d9882b858fc0107a6a46d025446bf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRelayShield.html#a823d9882b858fc0107a6a46d025446bf">anyRelayActivated</a> ()</td></tr>
-<tr class="memdesc:a823d9882b858fc0107a6a46d025446bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verify if the there are <a class="el" href="classRelay.html" title="This class allows a interface management to operate Relay´s in an Arduino or any kind of micro contro...">Relay</a> activated <em></em>.  <a href="#a823d9882b858fc0107a6a46d025446bf">More...</a><br /></td></tr>
 <tr class="separator:a823d9882b858fc0107a6a46d025446bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:addc067fff64c80ade1dee0231e248fc7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRelay.html">Relay</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRelayShield.html#addc067fff64c80ade1dee0231e248fc7">relays</a> [<a class="el" href="CurrentSensor_2src_2Config_8h.html#a21e0f8265251562a717d5c352a31c15b">MAX_RELAY_QUANTITY</a>]</td></tr>
+<tr class="memitem:addc067fff64c80ade1dee0231e248fc7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRelay.html">Relay</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRelayShield.html#addc067fff64c80ade1dee0231e248fc7">relays</a> [<a class="el" href="Config_8h.html#a21e0f8265251562a717d5c352a31c15b">MAX_RELAY_QUANTITY</a>]</td></tr>
 <tr class="separator:addc067fff64c80ade1dee0231e248fc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -164,15 +161,6 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Verify if the max quantity of Relays was reached <em></em>. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">index</td><td>- The index of the relay. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="classRelay.html" title="This class allows a interface management to operate Relay´s in an Arduino or any kind of micro contro...">Relay</a> - If the max quantity of <a class="el" href="classRelay.html" title="This class allows a interface management to operate Relay´s in an Arduino or any kind of micro contro...">Relay</a> was reached. </dd></dl>
-
 <p>Definition at line <a class="el" href="RelayShield_8cpp_source.html#l00041">41</a> of file <a class="el" href="RelayShield_8cpp_source.html">RelayShield.cpp</a>.</p>
 
 </div>
@@ -189,9 +177,6 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Verify if the there are <a class="el" href="classRelay.html" title="This class allows a interface management to operate Relay´s in an Arduino or any kind of micro contro...">Relay</a> activated <em></em>. </p>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="classRelay.html" title="This class allows a interface management to operate Relay´s in an Arduino or any kind of micro contro...">Relay</a> - If there are <a class="el" href="classRelay.html" title="This class allows a interface management to operate Relay´s in an Arduino or any kind of micro contro...">Relay</a> activated. </dd></dl>
 
 <p>Definition at line <a class="el" href="RelayShield_8cpp_source.html#l00046">46</a> of file <a class="el" href="RelayShield_8cpp_source.html">RelayShield.cpp</a>.</p>
 
@@ -211,7 +196,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Initializes the objects with the port specified to each relay <em></em>. </p>
+<p>Initializes the objects with the port specified<em></em>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">pin</td><td>- The port connected to the relay. </td></tr>
@@ -236,8 +221,6 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Get the relay with the passed parameter <em></em>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">index</td><td>- The index of the relay. </td></tr>
@@ -261,7 +244,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classRelay.html">Relay</a>* RelayShield::relays[<a class="el" href="CurrentSensor_2src_2Config_8h.html#a21e0f8265251562a717d5c352a31c15b">MAX_RELAY_QUANTITY</a>]</td>
+          <td class="memname"><a class="el" href="classRelay.html">Relay</a>* RelayShield::relays[<a class="el" href="Config_8h.html#a21e0f8265251562a717d5c352a31c15b">MAX_RELAY_QUANTITY</a>]</td>
         </tr>
       </table>
   </td>
@@ -281,7 +264,7 @@ Private Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Apr 17 2015 13:09:28 for SMART Energy by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Apr 27 2015 17:36:03 for SMART Energy by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.9.1
 </small></address>
