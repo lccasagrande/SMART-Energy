@@ -1,6 +1,6 @@
 /*
  * EthernetRequest.cpp - EthernetRequest library
- * Copyright (C) 2015-2016 Elton Faust  All rights reserved.
+ * Elton Faust.
  */
 
 //******************************************************************************

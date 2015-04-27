@@ -29,16 +29,7 @@ class Relay {
 			\param pin - The port connected to the voltage sensor.
 		*/
 		bool toggleState();
-		/*! \fn bool toggleState()
-			\brief Change the state of the Relay to On/Off \a.
-			\return state - The actual state of the Relay.
-		*/
 		bool activated();
-		/*! \fn bool activated()
-			\brief Return if the Relay are activated or not\a.
-			\return state - The state of the Relay.
-		*/
-	
 };
 
 #endif

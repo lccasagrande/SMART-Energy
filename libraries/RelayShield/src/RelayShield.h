@@ -29,27 +29,16 @@ class RelayShield {
 		*/
 		void begin(int pin[]);
 		/*! \fn void begin(int)
-			\brief Initializes the objects with the port specified to each relay \a.
+			\brief Initializes the objects with the port specified\a.
 			\param pin - The port connected to the relay.
 		*/
 		Relay* getRelay(int index);
 		/*! \fn Relay getRelay(int)
-			\brief Get the relay with the passed parameter \a.
 			\param index - The index of the relay.
 			\return Relay - The relay localized at defined index.
 		*/
 		bool acceptableRelayIndex(int index);
-		/*! \fn bool acceptableRelayIndex(int)
-			\brief Verify if the max quantity of Relays was reached \a.
-			\param index - The index of the relay.
-			\return Relay - If the max quantity of Relay was reached.
-		*/
 		bool anyRelayActivated();
-		/*! \fn bool anyRelayActivated()
-			\brief Verify if the there are Relay activated \a.
-			\return Relay - If there are Relay activated.
-		*/
-
 };
 
 #endif

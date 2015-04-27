@@ -14,16 +14,12 @@
 class CurrentSensor {
 	
 	private:
-		int pin; /*!< Holds the port used for the current sensor */		
-		int zeroVoltage; /*!< Holds the zero Voltage calculated */
-		int actualCurrent; /*!< Holds the actual current average */
-		int readCount; /*!< Counter used to do the current average */
-		unsigned long sumCurrent; /*!< Holds the sum of the current sensor values */
+		int pin;
+		int zeroVoltage; 
+		int actualCurrent; 
+		int readCount; 
+		unsigned long sumCurrent; 
 		int determineQuiescentVoltage();
-		/*! \fn int determineQuiescentVoltage()
-			\brief Determine the zero Voltage \a.
-			\param pin - Return the zero voltage calculated.
-		*/
 		
 	public:
 		CurrentSensor();

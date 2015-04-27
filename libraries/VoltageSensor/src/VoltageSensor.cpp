@@ -1,6 +1,6 @@
 /*
  * VoltageSensor.cpp - Voltage Sensor library
- * Copyright (C) 2015-2016 Lucas C. Casagrande  All rights reserved.
+ * Lucas C. Casagrande
  */
 
 //******************************************************************************

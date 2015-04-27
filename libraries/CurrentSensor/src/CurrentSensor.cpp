@@ -1,6 +1,6 @@
 /*
  * CurrentSensor.cpp - Current Sensor library
- * Copyright (C) 2015-2016 Guilherme Engler Stadelhofer  All rights reserved.
+ * Guilherme Engler Stadelhofer.
  */
 
 //******************************************************************************
