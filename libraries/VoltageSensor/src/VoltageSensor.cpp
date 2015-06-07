@@ -59,6 +59,7 @@ void VoltageSensor::setDivisor(int divisor)
 
 void VoltageSensor::calculateAvg(int value)
 {
+	/* (4.85 * 1023 / 5) = 992 == 220 Volts */
 	_sumVoltage  += map(value, 0, 992, 0, 220);
 	_cont++;
 	
