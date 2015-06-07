@@ -59,7 +59,7 @@ void VoltageSensor::setDivisor(int divisor)
 
 void VoltageSensor::calculateAvg(int value)
 {
-	_sumVoltage  += map(value, 0, 993, 0, 219);
+	_sumVoltage  += map(value, 0, 992, 0, 220);
 	_cont++;
 	
 	if (_cont == _divisor) {
