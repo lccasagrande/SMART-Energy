@@ -22,13 +22,14 @@ Relay::Relay()
 //* Public Methods
 //******************************************************************************
 
-void Relay::begin(int pin)
+void Relay::begin(int pin, int initialOutput)
 {
 	if (this->pin == 0) {
 		this->pin = pin;
+		this->initialOutput = initialOutput;
 		
 		pinMode(this->pin, OUTPUT);
-		digitalWrite(this->pin, HIGH);
+		digitalWrite(this->pin, this->initialOutput);
 	}
 }
 
@@ -38,7 +39,11 @@ bool Relay::toggleState()
 		return false;
 	}
 	
-	digitalWrite(this->pin, this->state ? HIGH : LOW);
+	if (this->initialOutput == HIGH) {
+		digitalWrite(this->pin, this->state ? HIGH : LOW);
+	} else {
+		digitalWrite(this->pin, this->state ? LOW : HIGH);
+	}
 
 	// Inverte o estado do relé	
 	this->state = !this->state;

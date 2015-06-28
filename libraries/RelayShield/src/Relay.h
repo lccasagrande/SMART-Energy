@@ -17,13 +17,14 @@ class Relay {
 	private:
 		int pin; /*!< Holds the port used for the Relay */
 		bool state;/*!< Holds the state of the Relay */
+		int initialOutput;
 		
 	public:
 		Relay();
 		/*! \fn Relay()
 			\brief Initializes the variables \a.
 		*/
-		void begin(int pin);
+		void begin(int pin, int initialOutput);
 		/*! \fn void begin(int)
 			\brief Initializes the object with the port specified \a.
 			\param pin - The port connected to the voltage sensor.

@@ -16,6 +16,7 @@
 //* Constructors
 //******************************************************************************
 
+
 RelayShield::RelayShield() {
 	for (int i = 0; i < MAX_RELAY_QUANTITY; i++) {
 		this->relays[i] = new Relay();
@@ -26,10 +27,10 @@ RelayShield::RelayShield() {
 //* Public Methods
 //******************************************************************************
 
-void RelayShield::begin(int pin[])
+void RelayShield::begin(int pin[], int pinInitialOutput[])
 {
 	for (int i = 1; i <= MAX_RELAY_QUANTITY; i++) {
-		this->getRelay(i)->begin(pin[i - 1]);
+		this->getRelay(i)->begin(pin[i - 1], pinInitialOutput[i - 1]);
 	}
 }
 
@@ -42,6 +43,7 @@ bool RelayShield::acceptableRelayIndex(int index)
 {
 	return index > 0 && index <= MAX_RELAY_QUANTITY;
 }
+
 
 bool RelayShield::anyRelayActivated()
 {

@@ -20,7 +20,8 @@ void setup()
 	
 	// Inicializa o RelayShield
 	int relayOutput[] = RELAY_OUTPUT;
-	relayShield.begin(relayOutput);
+	int relayInitialOutput[] = RELAY_INITIAL_OUTPUT;
+	relayShield.begin(relayOutput, relayInitialOutput);
 	
 	// Inicializa o CurrentSensor
 	currentSensor.begin(CURRENT_SENSOR_INPUT);

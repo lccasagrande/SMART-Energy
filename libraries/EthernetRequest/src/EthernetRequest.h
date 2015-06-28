@@ -10,7 +10,6 @@
 **/
 
 
-#include <SPI.h>
 #include <Ethernet.h>
 
 #ifndef ETHERNET_REQUEST_H

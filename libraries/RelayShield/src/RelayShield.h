@@ -27,10 +27,9 @@ class RelayShield {
 		/*! \fn RelayShield()
 			\brief Initializes the variables \a.
 		*/
-		void begin(int pin[]);
+		void begin(int pin[], int relayInitialOutput[]);
 		/*! \fn void begin(int)
 			\brief Initializes the objects with the port specified\a.
-			\param pin - The port connected to the relay.
 		*/
 		Relay* getRelay(int index);
 		/*! \fn Relay getRelay(int)
